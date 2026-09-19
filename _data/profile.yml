@@ -16,22 +16,22 @@ github: "superZ678"
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. candidate in Artificial Intelligence at the School of Computer Science, Wuhan University, advised by Prof. Yong Luo. My research focuses on computer vision, video understanding, fine-grained hand-action understanding, multimodal learning, and large vision-language models.
+    I am a Ph.D. candidate in Artificial Intelligence at the School of Computer Science, <strong>Wuhan University</strong>, advised by Prof. <strong>Yong Luo</strong>. My research focuses on <strong>computer vision</strong>, <strong>video understanding</strong>, <strong>fine-grained hand-action understanding</strong>, <strong>multimodal learning</strong>, and <strong>LVLMs</strong>.
   </p>
   <p>
-    Before joining Wuhan University, I received my M.S. degree in Electronics and Communication Engineering from Fuzhou University and worked as a Linux Systems R&amp;D Engineer. I welcome research collaborations in fine-grained visual understanding and multimodal reasoning.
+    Before joining Wuhan University, I received my M.S. degree in Electronics and Communication Engineering from <strong>Fuzhou University</strong> and worked as a Linux Systems R&amp;D Engineer. I welcome research collaborations in fine-grained visual understanding and multimodal reasoning.
   </p>
 
 portrait_url: /assets/images/photo_ZT.jpg
 portrait_caption: "Ting Zhe"
 
 education:
-  - name: Wuhan University
+  - name: <strong>Wuhan University</strong>
     position: >-
       School of Computer Science <br/>
       Ph.D. Candidate in Artificial Intelligence
     date: Sep. 2022 - present
-  - name: Fuzhou University
+  - name: <strong>Fuzhou University</strong>
     position: >-
       School of Electronics and Information Engineering <br/>
       M.S. in Electronic and Communication Engineering
