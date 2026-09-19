@@ -44,7 +44,7 @@
 
                 <div class="row pt-3">
                     <div class="col text-center profile-socials">
-                        {% if site.data.profile.gscholar %}
+                        {% if site.data.profile.gscholar and site.data.profile.gscholar != "" %}
                         {%- if site.data.profile.gscholar contains 'scholar.google' -%}
                         {%- assign gscholar_url = site.data.profile.gscholar -%}
                         {%- else -%}
@@ -61,19 +61,19 @@
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.twitter %}
+                        {% if site.data.profile.twitter and site.data.profile.twitter != "" %}
                         <a class="px-1 no-break" target="_blank" href="https://twitter.com/{{ site.data.profile.twitter }}">
                             <i class="fab fa-twitter"></i>
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.linkedin %}
+                        {% if site.data.profile.linkedin and site.data.profile.linkedin != "" %}
                         <a class="px-1 no-break" target="_blank" href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}">
                             <i class="fab fa-linkedin"></i>
                         </a>
                         {% endif %}
 
-                        {% if site.data.profile.orcid %}
+                        {% if site.data.profile.orcid and site.data.profile.orcid != "" %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>
                         </a>
