@@ -1,22 +1,26 @@
-"Your Name":
-  bold: true
+publications:
+  - title: Multi‑Granularity Hand Action Detection
+    authors: **Ting Zhe**, Jing Zhang, Yongqian Li, Yong Luo*, Han Hu, Dacheng Tao
+    venue: ACM International Conference on Multimedia (ACM MM), 2024 (CCF‑A)
+    link: https://dl.acm.org/doi/abs/10.1145/3664647.3680723
+    code: https://github.com/superZ678/MG-HAD
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+  - title: Open‑Vocabulary Fine‑Grained Hand Action Detection
+    authors: **Ting Zhe**, Mengya Han*, Xiaoshuai Hao, Yong Luo*, Zheng He*, Xiantao Cai, Jing Zhang
+    venue: International Joint Conference on Artificial Intelligence (IJCAI), 2025 (CCF‑A)
+    link: https://www.ijcai.org/proceedings/2025/276
+    code: https://github.com/superZ678/OV-FGHAD
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+  - title: Inter‑Vehicle Distance Estimation Method Based on Monocular Vision Using 3D Detection
+    authors: **Ting Zhe**, Liqin Huang*, Qiang Wu, Jianjia Zhang, Chenhao Pei, Liangyu Li
+    venue: IEEE Transactions on Vehicular Technology (TVT), 2020 (SCI Zone 2)
+    link: https://ieeexplore.ieee.org/abstract/document/9020083
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+projects:
+  - name: MG‑HAD
+    desc: Multi‑Granularity Hand Action Detection (ACM MM 2024).
+    link: https://github.com/superZ678/MG-HAD
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
-
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
-
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+  - name: OV‑FGHAD
+    desc: Open‑Vocabulary Fine‑Grained Hand Action Detection (IJCAI 2025).
+    link: https://github.com/superZ678/OV-FGHAD
