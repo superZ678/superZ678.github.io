@@ -1,5 +1,7 @@
-menu:
+pages:
   - name: Home
-    link: /
-  - name: Journey
-    link: /journey
+    url: /
+  - name: Publications
+    url: /publications.html
+  - name: CV
+    url: /cv.html

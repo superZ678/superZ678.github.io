@@ -1,21 +1,21 @@
 <div class="row sticky-top" style="top: 80px">
     <div class="col">
-        <div class="card border-0 shadow-sm bg-white">
-            <div class="card-body px-4 pt-4 pb-3">
+        <div class="profile-panel">
+            <div class="profile-panel-body">
                 <div class="row">
                     <div class="col">
                         {% if site.data.profile.portrait_url %}
                         <!-- When the screen is wider than md, float the portrait on the right -->
-                        <div class="figure d-none d-md-block">
+                        <div class="figure profile-portrait-wrap d-none d-md-block">
                             <img 
                                 src="{{ site.data.profile.portrait_url | relative_url }}" 
-                                class="figure-img img-fluid" 
+                                class="profile-portrait"
                                 data-toggle="tooltip" 
                                 data-placement="top" 
                                 title="{{ site.data.profile.portrait_caption }}">
                         </div>
                         <div class="mb-3 d-md-none text-center">
-                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="rounded-circle" style="max-width: 50%;" alt="Portrait">
+                            <img src="{{ site.data.profile.portrait_url | relative_url }}" class="profile-portrait profile-portrait-mobile" alt="Portrait of {{ site.data.profile.primary_name }}">
                         </div>
                         {% endif %}
                     </div>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
 
-                <div class="row small">
+                <div class="row profile-position">
                     <div class="col text-center">
                         {% for position in site.data.profile.positions %}
                         {{ position.name }}<br/>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
 
-                <div class="row small">
+                <div class="row profile-email-row">
                     <div class="col text-center">
                         <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
                             {{ site.data.profile.email | replace: "@", "(at)" }}
@@ -42,8 +42,8 @@
                     </div>
                 </div>
 
-                <div class="row pt-2">
-                    <div class="col text-center h4">
+                <div class="row pt-3">
+                    <div class="col text-center profile-socials">
                         {% if site.data.profile.gscholar %}
                         {%- if site.data.profile.gscholar contains 'scholar.google' -%}
                         {%- assign gscholar_url = site.data.profile.gscholar -%}
@@ -76,6 +76,11 @@
                         {% if site.data.profile.orcid %}
                         <a class="px-1 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}">
                             <i class="fab fa-orcid"></i>
+                        </a>
+                        {% endif %}
+                        {% if site.data.profile.cv_link %}
+                        <a class="px-1 no-break" href="{{ site.data.profile.cv_link | relative_url }}" title="Curriculum Vitae">
+                            <i class="fas fa-file-lines"></i>
                         </a>
                         {% endif %}
                     </div>
