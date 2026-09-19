@@ -6,7 +6,7 @@ description: >
   Research interests: Computer Vision, Deep Learning, Video Understanding,
   Fine‑Grained Hand‑Action Understanding, Multimodal Modeling, LVLM.
 
-avatar: assets/imgages/photo_zt.png 
+avatar: assets/images/photo_zt.png
 
 # Contact & Social links
 email: zheting@whu.edu.cn
@@ -16,10 +16,3 @@ github: https://github.com/superZ678
 linkedin: ""
 
 lang: en
-
-# Navigation menu
-menu:
-  - name: Home
-    link: /
-  - name: Journey
-    link: /journey
