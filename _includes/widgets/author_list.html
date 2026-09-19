@@ -13,11 +13,11 @@
     {%- elsif last_char == "*" -%}
         {%- assign key = _key | split: "*" | first -%}
         {%- assign mark = "*" -%}
-        {%- assign has_eq_contrib = true -%}
+        {%- assign has_corresponding = true -%}
     {%- elsif last_char == "#" -%}
         {%- assign key = _key | split: "#" | first -%}
         {%- assign mark = '<sup>#</sup>' -%}
-        {%- assign has_corresponding = true -%}
+        {%- assign has_eq_contrib = true -%}
     {%- else -%}
         {%- assign key = _key -%}
         {%- assign mark = "" -%}
@@ -50,11 +50,11 @@
 {%- if has_eq_contrib or has_corresponding %}
 <mark>(
     {%- if has_eq_contrib -%}
-        * <i> equal contribution</i>
+        <sup>#</sup> <i> equal contribution</i>
     {%- endif -%}
     {%- if has_corresponding -%}
         {%- if has_eq_contrib -%}, {% endif -%}
-        <sup>#</sup> <i> corresponding author</i>
+        * <i> corresponding author</i>
     {%- endif -%}
 )</mark>
 {%- endif -%}

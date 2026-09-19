@@ -108,7 +108,7 @@ a:hover {
 
 .academic-section:first-child { padding-top: 0.2rem; }
 .academic-section:last-child { border-bottom: 0; }
-.section-heading { font-size: 1.1rem; margin: 0 0 1rem; }
+.section-heading { color: var(--rose-400); font-size: 1.1rem; margin: 0 0 1rem; }
 
 .section-heading::after {
     background: var(--rose-400);
