@@ -1,44 +1,44 @@
-# Basic profile
-name: Ting Zhe
-avatar: assets/images/photo_zt.png
-bio: >
-  I am a Ph.D. candidate in Artificial Intelligence, School of Computer Science, Wuhan University, advised by Prof. Yong Luo.
-  My research interests include computer vision, deep learning, video understanding, fine‑grained hand‑action understanding, multimodal modeling and LVLM.
-  I received my M.S. degree in Electronic and Communication Engineering from Fuzhou University.
+primary_name: "Ting Zhe"
+secondary_name: ""
+navbar_name: "Ting Zhe"
 
-  I am always looking for research collaborations. Feel free to contact me via email.
+positions:
+  - name: Ph.D. Candidate, Wuhan University
 
-# Education & Work Experience
-experience:
+email: "zheting@whu.edu.cn"
+gscholar: ""
+github: "superZ678"
+# twitter: your_twitter_id
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I am a Ph.D. candidate in Artificial Intelligence, School of Computer Science, Wuhan University, advised by Prof. Yong Luo. My research interests include computer vision, deep learning, video understanding, fine-grained hand-action understanding, multimodal modeling and LVLM.
+  </p>
+  <p>
+    I received my M.S. degree in Electronic and Communication Engineering from Fuzhou University. I am always looking for research collaborations. Feel free to contact me via email.
+  </p>
+
+# TODO: replace this placeholder portrait with your real photo at /assets/images/photo_zt.png
+portrait_url: /assets/images/photos/portrait.jpg
+portrait_caption: "Ting Zhe"
+
+education:
   - name: Wuhan University
-    position: Ph.D. Candidate in Artificial Intelligence
-    time: 2022.09 — up to now
-    desc: School of Computer Science. Research on fine‑grained hand‑action understanding and multimodal modeling.
-
+    position: >-
+      School of Computer Science <br/>
+      Ph.D. Candidate in Artificial Intelligence
+    date: Sep. 2022 - present
   - name: Fuzhou University
-    position: Master of Electronic and Communication Engineering
-    time: 2017.09 — 2020.08
-    desc: Research on advanced driver‑assistance systems (ADAS) and vision‑based preceding‑vehicle distance estimation.
+    position: >-
+      School of Electronics and Information Engineering <br/>
+      M.S. in Electronic and Communication Engineering
+    date: Sep. 2017 - Aug. 2020
 
-# News
-news:
-  - date: 2025.08
-    content: Paper *Open‑Vocabulary Fine‑Grained Hand Action Detection* accepted by **IJCAI 2025 (CCF‑A)**. [[Paper]](https://www.ijcai.org/proceedings/2025/276)
-  - date: 2024.10
-    content: Paper *Multi‑Granularity Hand Action Detection* accepted by **ACM MM 2024 (CCF‑A)**. [[Paper]](https://dl.acm.org/doi/abs/10.1145/3664647.3680723)
-  - date: 2025.10
-    content: Awarded **Tencent Scholarship**, Wuhan University.
-  - date: 2024.10
-    content: Received Second‑Class Excellent Academic Scholarship, Wuhan University.
-
-# Academic Service
-academic_service:
-  - name: Manuscript Reviewer
-    content: Ad‑hoc reviewer for top computer vision & AI conferences.
-
-# Skills
-skills:
-  programming_ml: >
-    Python, PyTorch, OpenCV; Fine‑Grained Recognition and Detection, Multimodal Feature Fusion, LVLM.
-  research_tools: >
-    Ubuntu, LaTeX, embedded‑Linux debugging.
+awards:
+  - name: Tencent Scholarship, Wuhan University
+    date: 2025
+  - name: Second-Class Excellent Academic Scholarship, Wuhan University
+    date: 2024
