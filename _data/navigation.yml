@@ -3,5 +3,5 @@ pages:
     url: /
   - name: Publications
     url: /publications.html
-  - name: CV
-    url: /cv.html
+  # - name: CV
+  #   url: /cv.html
