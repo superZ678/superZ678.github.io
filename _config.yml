@@ -1,41 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site Settings
+title: Ting Zhe
+subtitle: Ph.D. Candidate, Wuhan University
+description: >
+  Ph.D. candidate at School of Computer Science, Wuhan University.
+  Research interests: Computer Vision, Deep Learning, Video Understanding,
+  Fine‑Grained Hand‑Action Understanding, Multimodal Modeling, LVLM.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+avatar: assets/img/avatar.jpg  # 将你的头像上传到assets/img文件夹，修改文件名
 
-# Build settings
-markdown: kramdown
-plugins:
-  - jekyll-email-protect
+# Contact & Social links
+email: zheting@whu.edu.cn
+orcid: ""
+google_scholar: ""
+github: https://github.com/superZ678
+linkedin: ""
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+lang: en
 
-# timezone: Asia/Shanghai
-
-collections:
-  - publications
-  - news
-  - showcase
-  - posts
+# Navigation menu
+menu:
+  - name: Home
+    link: /
+  - name: Journey
+    link: /journey
